@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.dw_insumos"
+  DTS:DTSID="{54582A6D-7A5B-4D17-A841-550D027C0EE0}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=dw_insumos;Integrated Security=True;Application Name=SSIS-TiendaDeInsumosETL-{54582A6D-7A5B-4D17-A841-550D027C0EE0}localhost.dw_insumos;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

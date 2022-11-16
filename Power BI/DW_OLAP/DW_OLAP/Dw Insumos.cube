@@ -1,0 +1,199 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5d3eeed2-ad2b-4d1a-b27f-c42e391e1ed3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dw Insumos</ID>
+  <Name>Dw Insumos</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="bd04bc1d-25f8-4bed-8620-1a99012d01ad">
+      <ID>H Compras</ID>
+      <Name>H Compras</Name>
+      <DimensionID>H Compras</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="979b1967-3a0f-4bc0-9709-084734f7768c">
+          <AttributeID>Compra Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="913f014f-a9e5-4967-a2cf-7846b6a95d7b">
+          <AttributeID>Cantidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be2178b6-ff91-4fcd-8da6-7a59df81f4bb">
+          <AttributeID>Total</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a59d634d-6cd6-4465-90cf-b76218dd9b29">
+          <AttributeID>Proveedor Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="700e72fc-2b91-48b1-a6b9-6fe2627e08ce">
+          <AttributeID>Insumo Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="90e69f08-2843-40f2-b292-7c1cdf0ec99f">
+      <ID>D Proveedor</ID>
+      <Name>D Proveedor</Name>
+      <DimensionID>D Proveedor</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5435ed1a-e1de-4d1f-8a75-8837d83b9ef8">
+          <AttributeID>Proveedor Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3635d508-5f1a-4592-8821-65ab996455a5">
+      <ID>D Insumo</ID>
+      <Name>D Insumo</Name>
+      <DimensionID>D Insumo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c0556667-0fc3-4ee0-989f-430befe76aeb">
+          <AttributeID>Insumo Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="7f9ca31b-b11c-4a75-ad2c-a9066e02a48d">
+      <ID>H Compras</ID>
+      <Name>H Compras</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e536cd59-97e5-4d6a-9c5d-f06c1119fdd6">
+          <ID>Cantidad</ID>
+          <Name>Cantidad</Name>
+          <Source dwd:design-time-name="80d1d59f-95c5-40ba-afa0-cdf70fca1548">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b843122c-65a0-4819-9011-c3edbddcda5d">
+              <TableID>dbo_H_Compras</TableID>
+              <ColumnID>cantidad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8ee63fa3-e175-4dad-b491-d743936bd809">
+          <ID>Total</ID>
+          <Name>Total</Name>
+          <Source dwd:design-time-name="859f135a-4545-4b8a-8585-efef740cba3e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3100639d-9d5c-46df-b398-06482afdaa1f">
+              <TableID>dbo_H_Compras</TableID>
+              <ColumnID>total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8cf37a4d-39cb-42a7-b343-5b145fdda138">
+          <ID>Recuento H Compras</ID>
+          <Name>Recuento H Compras</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="613d56e1-62ae-4b53-967e-2ee350a888c7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="00b36f6e-08e6-4d2a-8c88-3f64a21aad2e">
+              <TableID>dbo_H_Compras</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0f5dec2c-7e66-4a74-8609-61db149de974">
+          <CubeDimensionID>H Compras</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7287b58c-b701-4d45-bf7e-bf2f2cff4361">
+              <AttributeID>Compra Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a1f1f3c6-6e1e-49b0-a8c2-82a404ef906b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c882c014-0686-49da-8f10-8d5c24b84d83">
+                    <TableID>dbo_H_Compras</TableID>
+                    <ColumnID>compra_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a50973a0-b9d0-41bd-80e7-aaa28c738fe8">
+          <CubeDimensionID>D Proveedor</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0d14d0e2-0326-4bf6-9047-d7de82013c82">
+              <AttributeID>Proveedor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fa391ae8-7fa9-415e-aeef-35fd6291892d">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f8c0002-d97f-44f3-b672-9ef20eaa6429">
+                    <TableID>dbo_H_Compras</TableID>
+                    <ColumnID>proveedor_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c9718610-d2c8-4a51-ba33-8c8bde7cb5b8">
+          <CubeDimensionID>D Insumo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d9aee700-f7a6-4da8-8ddd-7c1555ee5b89">
+              <AttributeID>Insumo Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ee520e23-c851-4587-93a7-c21f057e609a">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="29630ec8-de70-4c64-ac8a-6acc5086fe79">
+                    <TableID>dbo_H_Compras</TableID>
+                    <ColumnID>insumo_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="5da013d1-c1a8-41a1-8480-b1b3180ccd21">
+    <DataSourceViewID>Dw Insumos</DataSourceViewID>
+  </Source>
+</Cube>

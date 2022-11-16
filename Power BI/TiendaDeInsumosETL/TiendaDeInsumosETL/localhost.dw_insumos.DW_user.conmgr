@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.dw_insumos.DW_user"
+  DTS:DTSID="{2CD95449-C8CD-4B42-AF8F-EC9E6E060642}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;User ID=DW_user;Initial Catalog=dw_insumos;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-TiendaDeInsumosETL-{2CD95449-C8CD-4B42-AF8F-EC9E6E060642}localhost.dw_insumos.DW_user;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+K4Pomlie0Orh+SV7B0A1gAAAAACAAAAAAAQZgAAAAEAACAAAACSq6JIFReb8wNTs/0MnIH7IIXVIMp+6eN17usbmF/6OAAAAAAOgAAAAAIAACAAAAAtaBoh4DXxZnk6l8wZ9APgsW9UihXEgC5anmWXp1jQEHAAAACc3ukzesiWavrkp4PTfXkyL1dxfSPLW6Gf8b7os8dEfxeOcSRVJrIf9VXQR5Dc8T9yhGx4mAYB7ZZfv9SUxCjvJtQGytzJqWgdyYosco6qBy2QkubdU42ptgk81oHHgDXiOiZrMqAVquBejL4wT+RBQAAAAOEmosh3xF+Qjn6OEwW85t9jBhqkMPxV+XTWoXTdWMQCyD0M3/xIRqK/Qi8B6g5nvnsS0UHDiBnkO/QAinVNn8g=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

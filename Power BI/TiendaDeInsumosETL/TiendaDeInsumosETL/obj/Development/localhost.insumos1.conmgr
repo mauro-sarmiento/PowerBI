@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.insumos1"
+  DTS:DTSID="{5CE2A788-A906-43CD-BE8B-823D52B88011}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=insumos;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-TiendaDeInsumosETL-{5CE2A788-A906-43CD-BE8B-823D52B88011}localhost.insumos1;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
